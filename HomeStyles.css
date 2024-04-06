@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url(Banner\ Muj.webp);
+    width: 100%;
+    height: 25rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+nav{
+    margin-top: 2px;
+    float: right;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap:15%;
+    width: 80%;
+    height: 3.5rem;
+    background: linear-gradient(to right, transparent 0%,rgba(255, 255, 255, 0.226)10%, rgba(255, 255, 255, 0.226)80%, transparent);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid white;
+}
+nav a{
+    align-items: center;
+    font-size: large;
+    text-decoration: none;
+    border-left: 1 px solid rgba(255, 255, 255, 0.573);
+    
+}
+nav p{
+    color: rgba(247, 244, 244, 0.948);;
+}
+.event-container{
+    background-color: rgb(231, 124, 47);
+    height: 3.5rem;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+nav p:hover,.event-container a:hover{
+    color: rgb(244, 230, 137);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav img{
+    height: 3rem;
+    margin-left: 5px;
+    width: 8rem;
+}
+nav p:active,.event-container a:active{
+    color: rgb(169, 158, 89);
+    cursor:wait;
+}
+
+nav a:last-of-type{
+    margin-right: 5% ;
+}
+nav a:visited{
+    color: rgba(247, 244, 244, 0.948);
+    text-decoration:none;
+}
+
