@@ -1,0 +1,14 @@
+h1{
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+}
+
+body{
+    padding:20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
