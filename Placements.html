@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placements</title>
+    <link rel="stylesheet" href="HomeStyles.css">
+    <link rel="stylesheet" href="secondaryStyle.css">
+    
+</head>
+<div class="banner">
+    <div class="navigation-container">
+    <nav class="header-nav">
+        <a href="HomePage.html"><img src="images/MUJ logo.png"></a>
+        <a href="Placements.html"><p>Placements</p></a>
+        <a href=""><p>Photo Gallery</p></a>
+        <a><p>Academics</p></a>
+        <a><p>Login</p></a>
+    </nav>
+    </div>
+</div>
+<div class="event-container center"><a href=""><h1 class="shadow" onclick="loadContent('default.html')">PLACEMENTS</a></h1></div>
+
+<div class="main-display">
+    <div >
+        <nav class="branch-nav">
+            <a href="" onclick="loadContent('BusinessCommerce.html');event.preventDefault();">Faculty of Management and Commerce</a>
+            <a href="" onclick="loadContent('FOScience.html');event.preventDefault();"> Faculty of Sciences</a>
+            <a href="" onclick="loadContent('Engineering.html');event.preventDefault();"> Faculty of Computer Science Engineering</a>
+            <a href="" onclick="loadContent('FOArts.html');event.preventDefault();">Faculty of Arts</a>
+            <a href="" onclick="loadContent('BJMC.html');event.preventDefault();">Journalism and Communication</a>
+            <a href="" onclick="loadContent('law.html');event.preventDefault();">Faculty of Law</a>
+        </nav>
+    </div>
+    <div class="content center">
+        <iframe class="content-frame" frameborder="0" src="placement branches/default.html">
+            
+        </iframe>
+    </div>
+</div>
+<script>
+    function loadContent(pageUrl) {
+    var iframe = document.querySelector('.content-frame');
+    iframe.src = "placement branches/"+pageUrl;
+    
+}
+
+</script>
+</body>
+</html>
