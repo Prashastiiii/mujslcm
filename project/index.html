@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h2>Login Form</h2>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="login.php?type=teacher" method="POST">
+                <h1>Teacher Login</h1>
+                <input type="text" name="teacher_name" placeholder="Name" />
+                <input type="password" name="teacher_password" placeholder="Password" />
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="login.php?type=student" method="POST">
+                <h1>Student Login</h1>
+                <input type="name" name="student_name" placeholder="Name" />
+                <input type="password" name="student_password" placeholder="Password" />
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Student Login</h1>
+                    <p>Are you a Student?</p>
+                    <button class="ghost" id="signIn">Log In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Teacher Login</h1>
+                    <p>Are you a teacher?</p>
+                    <button class="ghost" id="signUp">Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Sign-up/log-in as a student or teacher
+        </p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
