@@ -1,0 +1,134 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(241, 175, 51, 0.101)
+}
+.banner{
+    background-image: url(images/Banner\ Muj.webp);
+    width: 100%;
+    height: 25rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.event-container h3{
+    text-decoration:underline;
+    margin-left: 10px;
+    border-right: 1px solid white;
+}
+.header-nav{
+    float: right;
+    position: fixed;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3px;
+    justify-content: space-between;
+    align-items: center;
+    gap:10%;
+    width:100%;
+    height: 3.5rem;
+    background: linear-gradient(to left,rgba(241, 184, 91, 0.758)10%, rgba(241, 184, 91, 0.758)60%, transparent);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid white;
+}
+.header-nav img{
+    margin: auto;
+}
+.header-nav a{
+    align-items: center;
+    font-size: large;
+    text-decoration: none;
+    border-left: 1 px solid rgba(255, 255, 255, 0.573);
+    
+}
+.header-nav p{
+    color: rgba(247, 244, 244, 0.948);;
+}
+.event-container{
+    margin-top: 5px;;
+    background-color: rgba(233, 132, 65, 0.999);
+    height: 3.5rem;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid rgba(107, 55, 17, 0.8);
+}
+.header-nav p:hover,.event-container a:hover{
+    color: rgb(244, 230, 137);
+    cursor: pointer;
+}
+
+.header-nav img{
+    height: 3rem;
+    margin-left: 5px;
+    width: 8rem;
+}
+.header-nav p:active,.event-container a:active{
+    color: rgb(152, 140, 60);
+    cursor:wait;
+}
+
+.header-nav a:last-of-type{
+    margin-right: 5% ;
+}
+.header-nav a:visited{
+    color: rgba(247, 244, 244, 0.948);
+    text-decoration:none;
+}
+
+.card {
+    background: rgba(246, 162, 6, 0.145);
+    margin: 20px;
+    padding: 40px;
+    height: auto; 
+    width: 50%;
+    border: 1px solid rgb(96, 57, 25);
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.card img {
+    max-height: calc(100% - 80px); 
+    max-width: calc(100% - 80px);
+    float: right;
+    margin: 10px;
+    box-shadow: 0 10px 50px rgba(194, 97, 28, 0.76);
+    border-radius:15px;;
+}
+.section-container {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: flex-start; 
+    gap:10%;
+}
+.section-container h1{
+    font-size:2.5rem;    
+    text-shadow: 10px 5px 10px rgba(194, 97, 28, 0.76)
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ps {
+    margin-left: auto; /* This will push the .ps section to the right */
+  }
+  
+
+
+footer{
+    padding: 10px;
+    color: rgb(255, 246, 246);
+    background-color: rgba(237, 171, 48, 0.877);
+    border: 1px solid rgba(151, 104, 16, 0.629);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

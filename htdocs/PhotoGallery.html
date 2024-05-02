@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placements</title>
+    <link rel="stylesheet" href="HomeStyles.css">
+    <link rel="stylesheet" href="secondaryStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@97.7,200..900&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <style>
+        .grid-image{
+            position: relative;
+            width: 30%;
+            height: auto;
+            box-shadow: 0 2px 20px rgba(194, 97, 28, 0.76);
+            border-radius: 15px;
+        }
+
+        .grid-container{
+            margin: 10px;;
+            display:flex;
+            flex-wrap: wrap;
+            gap:30px;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            
+        }
+        .grid-container img{
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            flex: 1 1 auto; 
+              min-width: 150px;
+        }
+        @media screen and (max-width: 700px) {
+        .grid-container {
+                flex-direction: column;
+            }
+        .grid-image{
+            position: relative;
+            width: 50%;
+            height: auto;
+            }
+        }
+        .libre-baskerville-regular {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        word-spacing: 0.2em;
+        line-height: 1.8; 
+}
+
+figcaption{
+    text-align: center;
+    color: rgb(214, 65, 11);
+    font-size: 20px;
+    margin: 10px;
+}
+
+        .desctext {
+            background-color: rgba(31, 30, 29, 0.808);
+            color: rgb(250, 250, 250);
+            text-align: center;
+            font-size: 80%;
+            text-align: left;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            width: 100%; 
+            height: 100%;
+            top: 0;
+            left: 0;
+            visibility: hidden;
+            box-sizing: border-box; 
+            padding: 10px;
+        }
+        .grid-image:hover .desctext {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+  <div class="banner">
+    <div class="navigation-container">
+    <nav class="header-nav">
+        <a href="HomePage.php"><img src="images/MUJ logo.png"></a>
+        <a href="Placement.php"><p>Placements</p></a>
+        <a href="PhotoGallery.html"><p>Photo Gallery</p></a>
+        <a href="./new/index.php"><p>Student Login</p></a>
+        <a href="./teacherlogin/index.php"><p>Teacher Login</p></a>
+    </nav>
+ 
+</div>
+</div>
+<div class="event-container center"><h1 class="shadow">PHOTO GALLERY</a></h1></div>
+<div class="grid-container">
+    <div class="grid-image">
+        <figure>
+            <img src="images/3rd International Conference pic.jpeg">
+            <figcaption>ICTSES conference</figcaption>
+        </figure>
+        <span class="desctext libre-baskerville-regular center"> 14 Dec 2023 TO 15 Mar 2024  <br><br>
+            The ICTSES conference series started in 2018 at Manipal University Jaipur. The second edition, ICTSES-2021, was online with NIT Jaipur and NIT Uttarakhand. ICTSES-2023, held on December 14-15, 2023, collaborated with NIT Uttarakhand, MNIT Jaipur, and IIIT Ranchi.</span>
+    </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/Bio Science Lab.jpeg">
+            <figcaption>Bio Science Lab</figcaption>
+        </figure>
+        <span class="desctext libre-baskerville-regular center">
+            Manipal University Jaipur (MUJ) has a Bioscience Lab with world-class infrastructure
+            
+             
+        </span>
+    </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/Library.png">
+            <figcaption>Library</figcaption>
+        </figure>
+
+        <span class="desctext libre-baskerville-regular center">
+            MUJ's Central Library spans 2319 Sq.m., accommodating 700 individuals in an air-conditioned, serene atmosphere. Employing RFID technology, it offers seamless access, automatic document handling, and extensive resources, including 57,800 books, 400 print journals, 18 e-resources, and 2500 CDs/DVDs.
+        </span>
+    </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/CAF lab.jpeg">
+            <figcaption>CAF Lab</figcaption>
+        </figure>
+        <span class="desctext libre-baskerville-regular center">
+            The Central Analytical Facilities (CAF) offers cutting-edge instruments for material analysis, aiding scientific inquiry and innovation. Serving both internal users within the university community and external researchers and industries, CAF provides invaluable support for research across various disciplines.</span>
+        </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/Radio.jpeg">
+            <figcaption>Radio</figcaption>
+        </figure>
+        <span class="desctext libre-baskerville-regular center">
+            A community radio station, operationalized on May 2, 2023, covers a radius of 12-15 km and reaches approximately 100,000 listeners across localities like Bagru Industrial Area and Mahindra World City. Featuring diverse programming, it aims to educate and connect rural communities, with a tagline "Judenge Gaaon Jodegi Siksha."
+        </span>
+    </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/Sports.jpg">
+            <figcaption>Sports</figcaption>
+        </figure>
+        <span class="desctext libre-baskerville-regular center">
+            MUJ stands out for its top-notch sports infrastructure and individual coaching across various disciplines. From organizing events like International Yoga Day to paying tribute to sporting legends like Major Dhyan Chand with annual marathons, MUJ's sports policy prioritizes talent development and fosters a culture of fitness and excellence among students.
+        </span>
+    </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/Student Idea challenge.png">
+            <figcaption>Student Idea challenge</figcaption>
+        </figure>
+    <span class="desctext libre-baskerville-regular center">
+        09 Dec 2023 TO 22 Dec 2023 <br><br>
+        MUJ's Departments of Biotechnology & Chemical Engineering and Civil Engineering organized the 2023 Online Student Idea Challenge on "Energy and Environmental Conservation," where students proposed "Technologies for Green Hydrogen Production In India" 
+        </span>
+    </div>
+    <div class="grid-image">
+        <figure>
+            <img src="images/Harmony Within.jpg">
+            <figcaption>Harmony Within: Classical Dance</figcaption>
+        </figure>
+    <span class="desctext libre-baskerville-regular center">
+        11 August 2023<br><br>
+        The Department of Psychology, in collaboration with the Department of Data Science and Engineering, orchestrates an engaging and enlightening Interactive Session on "Harmony Within: Healing Rhythms of Indian Classical Dance," fostering profound insights and cultural appreciation.
+    </span></div>
+
+</div>
+</body>
+</html>
